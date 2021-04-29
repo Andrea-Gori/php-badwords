@@ -11,7 +11,7 @@
   <?php 
     $text= "Quando alcune cose sono in contraddizione, devi vedere il lato opposto di tutto. E quando i significati dietro azioni apparentemente anormali diventano chiari, si può ottenere una risposta completamente diversa. - Merlin ( Seven Deadly Sins )";
 
-    $badWord = $_GET['badWord'];
+    /* $badWord = $_GET['badWord']; */
     $textbad = str_replace($_GET['badWord'], '***', $text);
   ?>
 
